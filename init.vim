@@ -17,6 +17,8 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 " Ale
@@ -37,6 +39,7 @@ let g:jedi#completions_enabled = 0
 let test#python#runner = 'pytest'
 
 " custom config
+let g:airline_theme='base16'
 colorscheme gruvbox
 set background=dark
 set number
